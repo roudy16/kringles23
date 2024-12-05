@@ -3,6 +3,7 @@ use std::io::BufReader;
 
 use crate::utils::create_line_stream_from_file;
 
+#[allow(dead_code)]
 pub fn run_advent_day_one() {
     let input_file_path = "input_data/day_01.txt";
     let input_file = std::fs::File::open(input_file_path).unwrap();
